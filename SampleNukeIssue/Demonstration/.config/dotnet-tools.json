@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "samplenuketool": {
+      "version": "0.0.15",
+      "commands": [
+        "sample-nuke-tool"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>SampleNukeTool</PackageId>
+    <Version>0.0.15</Version>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace></RootNamespace>
+    <NoWarn>CS0649;CS0169</NoWarn>
+    <NukeRootDirectory></NukeRootDirectory>
+    <NukeScriptDirectory></NukeScriptDirectory>
+    <NukeTelemetryVersion>1</NukeTelemetryVersion>
+    <Nullable>enable</Nullable>
+    <PackageOutputPath>../LocalPackages</PackageOutputPath>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>sample-nuke-tool</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Protocol" Version="6.5.0" />
+    <PackageReference Include="Nuke.Common">
+      <Version>*</Version>
+    </PackageReference>
+    <PackageReference Include="SampleNukeLibrary" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageDownload Include="NuGet.CommandLine" Version="[6.5.0]" />
+  </ItemGroup>
+
+</Project>

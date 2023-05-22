@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_build", "GlobalTool\_build.csproj", "{06E42F58-0630-4A18-A12A-FCD17678A2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternalLibrary", "InternalLibrary\InternalLibrary.csproj", "{FEA76E4D-B17B-49FA-B82C-6CCC7206622D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToggleIssue", "ToggleIssue\ToggleIssue.csproj", "{E258701D-0519-4492-BF6F-D1F6D8B68A0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E42F58-0630-4A18-A12A-FCD17678A2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E42F58-0630-4A18-A12A-FCD17678A2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E42F58-0630-4A18-A12A-FCD17678A2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E42F58-0630-4A18-A12A-FCD17678A2B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEA76E4D-B17B-49FA-B82C-6CCC7206622D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA76E4D-B17B-49FA-B82C-6CCC7206622D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA76E4D-B17B-49FA-B82C-6CCC7206622D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA76E4D-B17B-49FA-B82C-6CCC7206622D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E258701D-0519-4492-BF6F-D1F6D8B68A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E258701D-0519-4492-BF6F-D1F6D8B68A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E258701D-0519-4492-BF6F-D1F6D8B68A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E258701D-0519-4492-BF6F-D1F6D8B68A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

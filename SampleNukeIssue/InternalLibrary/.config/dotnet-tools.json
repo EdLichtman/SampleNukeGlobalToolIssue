@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "testsampleissue": {
+      "version": "0.0.3",
+      "commands": [
+        "sample-nuke-issue"
+      ]
+    },
+    "nx.integrate.nuget": {
+      "version": "2.0.2",
+      "commands": [
+        "nx-integrate-nuget"
+      ]
+    }
+  }
+}
